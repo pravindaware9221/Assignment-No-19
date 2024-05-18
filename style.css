@@ -14,14 +14,11 @@
     text-align: center;
 
 }
-
 .img{
     height: 100px;
     width: auto;
     border-radius: 20px;
 }
-
-
 @media screen and (min-width: 400px) and (max-width: 620px) {
     .cante_nar{
         display: flex;
@@ -39,11 +36,6 @@
     }
     
 }
-
-
-
-
-
 @media screen and (min-width: 621px) and (max-width: 950px) {
     .cante_nar{
         display: flex;
@@ -64,14 +56,7 @@
     }
     
 
-}
-
-
-
-
-
-
-        
+}  
 @media screen and (min-width: 950px) and (max-width: 1700px) {
 
     .cante_nar{
@@ -85,6 +70,7 @@
         display: none;
     }
     .card:hover{
+        transition-duration: 0.2s;
         border:solid 2px blue;
         box-shadow: 0px 0px 5px 0px blue;
         height: 152px;
@@ -94,6 +80,6 @@
             text-align: center;
             
         }
-        transition-duration: 0.2s;
+        
     }
 }
