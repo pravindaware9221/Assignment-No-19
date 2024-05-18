@@ -7,35 +7,47 @@
     border-radius: 20px;
 
 }
+.p{
+    font-style: bold;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+
+}
 
 .img{
     height: 100px;
     width: auto;
     border-radius: 20px;
 }
-
-@media screen and (min-width: 621px) and (max-width: 950px) {
-    .cante_nar{
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        padding: 10px; 
-        cursor: all-scroll;
-        position: fixed;
-
-    }
-    .card:hover{
+.card:hover{
+    border:solid 2px blue;
+    box-shadow: 0px 0px 5px 0px blue;
+    height: 152px;
+    width: 400px;
+    .p{
+        display: contents;
+        padding-left: 20px;
+        
+    }.card:hover{
         border:solid 2px blue;
         box-shadow: 0px 0px 5px 0px blue;
         height: 152px;
-        width: auto;
-    }
-    
-
-}
-
+        width: 400px;
+        .p{
+            display: contents;
+            padding-left: 20px;
+            
+        }.card:hover{
+        border:solid 2px blue;
+        box-shadow: 0px 0px 5px 0px blue;
+        height: 152px;
+        width: 400px;
+        .p{
+            display: contents;
+            padding-left: 20px;
+            
+        }
 
 
 
